@@ -1,12 +1,17 @@
 package Execption_handling;
-
-public class exception {
-    public static void mmain(String args[]){
-        int m=10; 
-        int n=0;
-        int ans=n/m; 
+import java.io.*;
+class exception{
+    public static void main(String[] args){
+        int n=10;
+        int m=0;
+       try{
+        int ans=n/m;
         System.out.println("The answer is: "+ans);
+       } catch(ArithmeticException e){
+        System.out.println("Cannot divide by zero");
+       }
+       finally{
+        System.out.println("Program continuos after handling errors");
+       }
     }
-
-    
 }
