@@ -2,10 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "java",
-      "name": "Launch problem6 (OOP.Problems_on_oop.problem6)",
-      "request": "launch",
-      "mainClass": "OOP.Problems_on_oop.problem6"
+        "type": "java",
+        "name": "problem7",
+        "request": "launch",
+        "mainClass": "OOP.Problems_on_oop.problem7",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "Launch problem6 (OOP.Problems_on_oop.problem6)",
+        "request": "launch",
+        "mainClass": "OOP.Problems_on_oop.problem6"
     }
-  ]
+]
 }
