@@ -1,6 +1,6 @@
 package OOP.Problems_on_oop;
 
-public class Employee {
+class Employee {
     private double salary;
 
     Employee(double salary) {
