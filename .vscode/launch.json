@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch problem6 (OOP.Problems_on_oop.problem6)",
+      "request": "launch",
+      "mainClass": "OOP.Problems_on_oop.problem6"
+    }
+  ]
+}

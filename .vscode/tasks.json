@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile current Java file",
+      "type": "shell",
+      "command": "javac -d . \"${file}\"",
+      "problemMatcher": ["$javac"],
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}
