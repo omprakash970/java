@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "problem10",
+        "request": "launch",
+        "mainClass": "OOP.Problems_on_oop.problem10",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "problem9",
         "request": "launch",
         "mainClass": "OOP.Problems_on_oop.problem9",

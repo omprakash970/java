@@ -27,12 +27,12 @@ class TypePromotionDemo {
 public class problem9 {
     public static void main(String[] args) {
         TypePromotionDemo tp = new TypePromotionDemo(
-                (byte)10,   // byte
-                (char)20,   // char
-                (short)30,  // short
-                40,         // int
-                50.0f,      // float
-                60.0        // double
+                (byte)10,   
+                (char)20,
+                (short)30, 
+                40,      
+                50.0f,     
+                60.0        
         );
         tp.calculate();
     }
