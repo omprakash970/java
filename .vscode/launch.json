@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "fileoutputsteam",
+        "request": "launch",
+        "mainClass": "Bytestreams.fileoutputsteam",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "reentrantlock",
         "request": "launch",
         "mainClass": "Synchronization.reentrantlock",
