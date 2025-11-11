@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "partitioning",
+        "request": "launch",
+        "mainClass": "functional_programming.partitioning",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "groupby",
         "request": "launch",
         "mainClass": "functional_programming.groupby",
