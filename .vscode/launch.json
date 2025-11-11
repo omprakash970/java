@@ -3,6 +3,34 @@
   "configurations": [
     {
         "type": "java",
+        "name": "sleep",
+        "request": "launch",
+        "mainClass": "All_mix.sleep",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "thread_lifecycle",
+        "request": "launch",
+        "mainClass": "All_mix.thread_lifecycle",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "implement_runnable",
+        "request": "launch",
+        "mainClass": "All_mix.implement_runnable",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "thread_creation_start_and_running",
+        "request": "launch",
+        "mainClass": "All_mix.thread_creation_start_and_running",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "fileoutputsteam",
         "request": "launch",
         "mainClass": "Bytestreams.fileoutputsteam",
