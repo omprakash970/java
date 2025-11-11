@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "thread",
+        "request": "launch",
+        "mainClass": "Threads.thread",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "partitioning",
         "request": "launch",
         "mainClass": "functional_programming.partitioning",
