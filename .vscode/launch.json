@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "synchronization",
+        "request": "launch",
+        "mainClass": "Synchronization.synchronization",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "thread",
         "request": "launch",
         "mainClass": "Threads.thread",
