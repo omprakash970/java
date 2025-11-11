@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "functional_interfaces",
+        "request": "launch",
+        "mainClass": "functional_programming.functional_interfaces",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "arraylist",
         "request": "launch",
         "mainClass": "arraylist",
