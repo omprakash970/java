@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "arraylist",
+        "request": "launch",
+        "mainClass": "arraylist",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "problem11",
+        "request": "launch",
+        "mainClass": "OOP.Problems_on_oop.problem11",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "problem10",
         "request": "launch",
         "mainClass": "OOP.Problems_on_oop.problem10",
