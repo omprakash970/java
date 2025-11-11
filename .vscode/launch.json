@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "reduce",
+        "request": "launch",
+        "mainClass": "functional_programming.reduce",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "stream_api",
+        "request": "launch",
+        "mainClass": "functional_programming.stream_api",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "functional_interfaces",
         "request": "launch",
         "mainClass": "functional_programming.functional_interfaces",
