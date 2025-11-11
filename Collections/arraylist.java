@@ -1,19 +1,18 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.HashSet;
+import java.util.HashMap; 
+
 class arraylist{
     public static void main(String[] args) {
-        LinkedList <Integer> list = new LinkedList<>(); 
-        list.add(10); 
-        list.add(20); 
-        list.add(25); 
-        list.add(30); 
-        
-        list.removeLast();
-        list.addFirst(5);
-        list.remove(Integer.valueOf(10)); 
-        for(int i: list){
-            System.out.println(i);
+        HashMap<Integer, String> map= new HashMap<>(); 
+        map.put(1, "Oppie");
+        map.put(2, "java"); 
+        System.out.println(map);
+        for(Integer key: map.keySet()){
+            System.out.println("Key: " + key + ", Value: " + map.get(key));
         }
 
+       
     }
 }
