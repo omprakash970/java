@@ -1,17 +1,20 @@
 package Threads;
 import java.lang.Thread;
 import java.lang.Runnable;
-class Mythread extends Thread{
-
+class MyRunnable implements Runnable {
+    public void run() {
+        for(int i=0; i<5; i++) {
+            System.out.println("Child Thread");
+        }
+    }
 }
+
 
 public class thread {
     public static void main(String[] args){
-       System.out.println(Thread.currentThread().getName());
-       Mythread t1=new Mythread();
-       System.out.println(t1.getName());
-       Thread.currentThread().setName("Oppie thread");
-       System.out.println(Thread.currentThread().getName());
+        MyRunnable r = new MyRunnable();
+        Thread t = new Thread(r);
+        t.start();
 
     }
 
