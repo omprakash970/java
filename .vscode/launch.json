@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "ReentrantLockExample",
+        "request": "launch",
+        "mainClass": "Synchronization.ReentrantLockExample",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "yield",
         "request": "launch",
         "mainClass": "All_mix.yield",
