@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "Student",
+        "request": "launch",
+        "mainClass": "collections.Student",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "comparables",
         "request": "launch",
         "mainClass": "collections.comparables",
