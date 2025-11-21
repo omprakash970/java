@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "method1",
+        "request": "launch",
+        "mainClass": "Wrapper_classes.method1",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "ReentrantLockExample",
         "request": "launch",
         "mainClass": "Synchronization.ReentrantLockExample",
