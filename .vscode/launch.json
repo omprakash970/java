@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "OOP.Main",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "testt",
         "request": "launch",
         "mainClass": "OOP.testt",

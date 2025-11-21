@@ -1,31 +1,35 @@
 package OOP;
 // GOOD DESIGN: abstract method
-abstract class Animal2 {
-    abstract void sound();   // MUST be implemented
-}
+// Custom Exception with message
+class InsufficientFundsException extends Exception {
 
-class Dog2 extends Animal2 {
-    void sound() {
-        System.out.println("Dog: Bark! Bark!");
+    public InsufficientFundsException(String msg) {
+        super(msg);  // pass message to Exception class
     }
 }
 
-class Snake2 extends Animal2 {
-    // MUST override
-    void sound() {
-        System.out.println("Snake: Hissssss!");
+class BankAccount {
+    private double balance = 5000;
+
+    public void withdraw(double amount) throws InsufficientFundsException {
+        if (amount > balance) {
+            throw new InsufficientFundsException("Withdrawal amount exceeds balance!");
+        }
+        balance -= amount;
+        System.out.println("Withdrawal successful! Remaining balance: " + balance);
     }
 }
 
 public class testt {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
+        BankAccount b = new BankAccount();
 
-    
-        Animal2 a1 = new Dog2();
-        a1.sound();  // Dog: Bark! Bark!
-
-        Animal2 a2 = new Snake2();
-        a2.sound();  // Snake: Hissssss!
+        try {
+            b.withdraw(8000);
+        } 
+        catch (InsufficientFundsException e) {
+            System.out.println("Custom Exception Caught:");
+            System.out.println(e.getMessage());
+        }
     }
-    
 }
