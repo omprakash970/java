@@ -3,6 +3,55 @@
   "configurations": [
     {
         "type": "java",
+        "name": "comparables",
+        "request": "launch",
+        "mainClass": "collections.comparables",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "QueueDemo",
+        "request": "launch",
+        "mainClass": "collections.QueueDemo",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "queuedemo",
+        "request": "launch",
+        "mainClass": "collections.queuedemo",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "queue",
+        "request": "launch",
+        "mainClass": "collections.queue",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "Linkedlist",
+        "request": "launch",
+        "mainClass": "collections.Linkedlist",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "vectors",
+        "request": "launch",
+        "mainClass": "collections.vectors",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "vector",
+        "request": "launch",
+        "mainClass": "collections.vector",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "arraylist",
         "request": "launch",
         "mainClass": "OOP.arraylist",
