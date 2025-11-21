@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "testt",
+        "request": "launch",
+        "mainClass": "OOP.testt",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "inheritence",
+        "request": "launch",
+        "mainClass": "OOP.inheritence",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
+        "name": "encapsulation",
+        "request": "launch",
+        "mainClass": "OOP.encapsulation",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "tostring",
         "request": "launch",
         "mainClass": "OOP.tostring",

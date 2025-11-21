@@ -11,6 +11,9 @@ class Dog extends Animal {
     void bark() {
         System.out.println("Dog is barking");
     }
+    void eat() {
+        System.out.println("Dog is eating");
+    }
 }
 
 public class inheritence {
