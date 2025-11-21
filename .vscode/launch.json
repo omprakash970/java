@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "arraylist",
+        "request": "launch",
+        "mainClass": "OOP.arraylist",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "Main",
         "request": "launch",
         "mainClass": "OOP.Main",
