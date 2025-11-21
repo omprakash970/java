@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "basiclambdafunctions",
+        "request": "launch",
+        "mainClass": "collections.basiclambdafunctions",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "Student",
         "request": "launch",
         "mainClass": "collections.Student",
