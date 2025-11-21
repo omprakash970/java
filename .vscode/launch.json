@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "constructorchaining",
+        "request": "launch",
+        "mainClass": "OOP.constructorchaining",
+        "projectName": "Java_55ad594a"
+    },
+    {
+        "type": "java",
         "name": "method1",
         "request": "launch",
         "mainClass": "Wrapper_classes.method1",
